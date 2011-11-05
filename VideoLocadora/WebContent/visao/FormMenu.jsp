@@ -211,7 +211,7 @@ h2 {font-size:20px;}
 	<li><a href="http://localhost:8080/VideoLocadora/jsp/formConsultaFilme.jsp">Con Filme</a></li>	
 	<li><a href="http://localhost:8080/VideoLocadora/jsp/formAlteraFilme.jsp">Alt Filme</a></li>
 	<li><a href="http://localhost:8080/VideoLocadora/jsp/formExcluiFilme.jsp">Exc Filme</a></li>
-	<li><a href="http://localhost:8080/VideoLocadora/jsp/formCadastraCliente.jsp">Cad Cliente</a></li>	
+	<li><a href="http://localhost:8080/VideoLocadora/visao/FormCadastraCliente.jsp">Cad Cliente</a></li>	
 	<li><a href="http://localhost:8080/VideoLocadora/jsp/formAlteraCliente.jsp">Alt Cliente</a></li>
 	<li><a href="http://localhost:8080/VideoLocadora/jsp/formExcluiCliente.jsp">Exc Cliente</a></li>
 	<li><a href="http://localhost:8080/VideoLocadora/jsp/formConsultaCliente.jsp">Con Cliente</a></li>
