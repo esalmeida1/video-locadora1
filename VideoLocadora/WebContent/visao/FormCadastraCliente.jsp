@@ -13,7 +13,7 @@
 <BR>
 <BR>
 <BR>
-<form id = "formCadastraCliente" METHOD=POST action="/VideoLocadora/ServletControle">
+<form id = "FormCadastraCliente" METHOD=POST action="/VideoLocadora/ServletControle">
 <table cellspacing="4">
 	<tr>
 	     <td><INPUT TYPE=HIDDEN NAME=acao VALUE=cadastraCliente></td>
@@ -53,7 +53,7 @@
 <BR>
 
 <% String cadastraOK = (String) request.getAttribute("cadastraOK");
-   System.out.println("cadastraOK =" + cadastraOK);
+  
    if(cadastraOK != null)
      if (cadastraOK.equals("true"))
           out.println("Cadastro efetivado");
