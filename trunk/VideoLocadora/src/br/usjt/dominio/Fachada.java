@@ -7,4 +7,26 @@ public class Fachada {
 		return repositorio.login(userName, password);
 			
 	}
+	
+	public String cadastraCliente(String cpf, String nome, String endereco,
+			String telefone) {
+		DAOCliente daoCliente = new DAOCliente();
+		ClienteRepositorio repositorio = new ClienteRepositorio(daoCliente);
+		Cliente umCliente = new Cliente();
+		String mensagem = "";
+
+		try {
+			umCliente.setCPF(cpf);
+			umCliente.setNome(nome);
+			umCliente.setEndereco(endereco);
+			umCliente.setTelefone(telefone);
+
+		} catch (Exception e) {
+			mensagem = e.getMessage();
+			System.out.println(mensagem);
+			return mensagem;
+		}
+
+		return repositorio.cadastra(umCliente);
+	}
 }
