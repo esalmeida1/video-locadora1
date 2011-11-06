@@ -59,13 +59,26 @@ public class ServletControle extends HttpServlet {
 				if (acao.equals("FormLogin")) {
 
 					if (fachada.login(userName, password)) {
-						System.out.println("servletcontrole chama formmenu");
+						
 						achou = "true";
 						url = "/visao/FormMenu.jsp";
 					} else {
 						achou = "false";
 						url = "/visao/FormLogin.jsp";
 					}
+				}
+				/*
+				 * 87126514190
+				 */
+				if (acao.equals("cadastraCliente")) {
+					cpf = request.getParameter("cpf");
+					nome = request.getParameter("nome");
+					endereco = request.getParameter("endereco");
+					telefone = request.getParameter("telefone");
+					cadastraOK = fachada.cadastraCliente(cpf, nome, endereco, telefone);
+					request.setAttribute("cadastraOK", cadastraOK);
+					url = "/visao/FormCadastraCliente.jsp";
+
 				}
 				RequestDispatcher rd = request.getRequestDispatcher(url);
 				rd.forward(request, response);
