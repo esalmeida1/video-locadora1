@@ -11,5 +11,7 @@
 	<classpathentry kind="lib" path="C:/edson/workspacevl/VideoLocadora/WebContent/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/edson/workspacevl/VideoLocadora/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="C:/edson/workspacevl/VideoLocadora/WebContent/WEB-INF/lib/selenium-java-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/edson/workspacevl/VideoLocadora/WebContent/WEB-INF/lib/selenium-server-standalone-2.11.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
