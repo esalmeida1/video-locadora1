@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 //
-public class DAOCliente implements IDAOCliente {
+public class DAOClienteMySQL implements IDAOCliente {
 	private static final String cadastraCliente = "INSERT INTO cliente "
 			+ "(cpf, nome, endereco, telefone) VALUES ( ?, ?,?,? ) ";
 	private static final String excluiCliente = "DELETE FROM cliente WHERE "

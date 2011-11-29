@@ -8,7 +8,7 @@ import java.sql.Connection;
 
 
 
-public class DAOUsuario implements IDAOUsuario {
+public class DAOUsuarioMySQL implements IDAOUsuario {
 	private static final String login = "SELECT nome FROM usuario"
 			+ " WHERE id = ? AND senha= ?";
 	@Override

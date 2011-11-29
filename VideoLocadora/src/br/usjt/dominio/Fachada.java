@@ -2,7 +2,7 @@ package br.usjt.dominio;
 
 public class Fachada {
 	public boolean login(String userName, String password) {
-		IDAOUsuario daoUsuario = new DAOUsuario();
+		IDAOUsuario daoUsuario = new DAOUsuarioMySQL();
 		UsuarioRepositorio repositorio = new UsuarioRepositorio(daoUsuario);
 		return repositorio.login(userName, password);
 			
@@ -10,7 +10,7 @@ public class Fachada {
 	
 	public String cadastraCliente(String cpf, String nome, String endereco,
 			String telefone) {
-		DAOCliente daoCliente = new DAOCliente();
+		DAOClienteMySQL daoCliente = new DAOClienteMySQL();
 		ClienteRepositorio repositorio = new ClienteRepositorio(daoCliente);
 		Cliente umCliente = new Cliente();
 		String mensagem = "";

@@ -8,7 +8,7 @@ import org.junit.Test;
 
 
 import br.usjt.dominio.DAOFactory;
-import br.usjt.dominio.DAOUsuario;
+import br.usjt.dominio.DAOUsuarioMySQL;
 
 public class TU_DAOFactory {
 
@@ -32,7 +32,7 @@ public class TU_DAOFactory {
 	 */
 	@Test
 	public void CT03ObtemUsuarioDAO_com_sucesso() {
-		assertTrue(DAOFactory.getUsuarioDAO() instanceof DAOUsuario);
+		assertTrue(DAOFactory.getUsuarioDAO() instanceof DAOUsuarioMySQL);
 	}
 	@After
 	public void tearDown() throws Exception {

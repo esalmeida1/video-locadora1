@@ -15,7 +15,7 @@ public class FormLogin {
 	}
 	public FormMenu clickBotaoLogin(){
 		selenium.click("continua");
-		selenium.waitForPageToLoad("30000");
+		selenium.waitForPageToLoad("40000");
 		return new FormMenu(selenium);
 	}
 

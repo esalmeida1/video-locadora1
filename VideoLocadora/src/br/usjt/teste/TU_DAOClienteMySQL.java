@@ -10,7 +10,7 @@ import org.junit.Test;
 import br.usjt.dominio.DAOFactory;
 import br.usjt.dominio.IDAOCliente;
 
-public class TU_DAOCliente {
+public class TU_DAOClienteMySQL {
 	static IDAOCliente clienteDAO;
 
 	@BeforeClass

@@ -8,7 +8,6 @@ public class Cliente {
 	private String cpf;
 	private String nome;
 	private String endereco;
-
 	private String telefone;
 //	private Vector<Emprestimo> _rentals = new Vector();
 
@@ -42,7 +41,12 @@ public class Cliente {
 	}
 
 	public void setTelefone(String telefone) {
-		this.telefone = telefone;
+		if (telefone != "" && telefone !=null){
+			this.telefone = telefone;
+		}
+		else
+			throw new IllegalArgumentException("Entrada inválida!");
+		
 	}
 	public void setCPF(String cpf) throws Exception {
 		if (isValido(cpf)){

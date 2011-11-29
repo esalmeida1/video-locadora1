@@ -45,9 +45,9 @@ public abstract class DAOFactory {
 //      return new DAOFilme();
 //    }
     public static IDAOCliente getClienteDAO() {
-      return new DAOCliente();
+      return new DAOClienteMySQL();
     }
     public static IDAOUsuario getUsuarioDAO() {
-        return new DAOUsuario();
+        return new DAOUsuarioMySQL();
       }
   }

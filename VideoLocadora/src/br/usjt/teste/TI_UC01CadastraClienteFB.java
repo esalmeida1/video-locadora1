@@ -10,8 +10,8 @@ import org.junit.Test;
 
 import br.usjt.dominio.Cliente;
 import br.usjt.dominio.ClienteRepositorio;
-import br.usjt.dominio.DAOCliente;
-import br.usjt.dominio.DAOUsuario;
+import br.usjt.dominio.DAOClienteMySQL;
+import br.usjt.dominio.DAOUsuarioMySQL;
 import br.usjt.dominio.Fachada;
 import br.usjt.dominio.IDAOCliente;
 import br.usjt.dominio.IDAOUsuario;
@@ -27,9 +27,9 @@ public class TI_UC01CadastraClienteFB {
 
 	@Before
 	public void setUp() throws Exception {
-		daoUsuario = new DAOUsuario();
+		daoUsuario = new DAOUsuarioMySQL();
 		usuarioRepositorio = new UsuarioRepositorio(daoUsuario);
-		daoCliente = new DAOCliente();
+		daoCliente = new DAOClienteMySQL();
 		clienteRepositorio = new ClienteRepositorio(daoCliente);
 		fachada = new Fachada();
 		umCliente = new Cliente();
