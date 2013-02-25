@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary pagina de descrição dos requisitos funcionais.
 
 = Sistema de Gestão da Vídeo Locadora =
 
@@ -34,4 +34,3 @@ RNF04 – A conclusão da transação de registro da devolução deve ser conclu
 RNF05 – O módulo de acesso a dados deve permitir a modificação do sistema gerenciador de banco de dados de acordo com as necessidades do cliente. Esta modificação deve ser realizada por um analista em no máximo 4h.
 
 RNF06 – O sistema deve ser estruturado em camadas e permitir o teste de cada camada utilizando API´s. O teste unitário deve cobrir 100% do código, o teste de integração deve cobrir 100% dos métodos públicos que permitem a integração entre as camadas. 
-
