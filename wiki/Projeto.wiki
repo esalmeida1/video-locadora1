@@ -1,0 +1,13 @@
+#summary descrição da arquitetura de referencia.
+
+= 1. Introdução =
+
+Sob o ponto de vista dos módulos que compõe o sistema a arquitetura foi estabelecida considerando três camadas (Figura 1). Esta visão reflete a divisão do software dento de unidades neste caso as unidades são camadas: Apresentação, Domínio, Persistência. 
+
+= 2. Estruturação das camadas =
+
+Descrição das camadas:
+  * *Camada de Apresentação: *
+     _Responsabilidade:_Formulários JSP que constituem a interface de comunicação com o usuário
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
