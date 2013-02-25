@@ -1,6 +1,6 @@
 #summary pagina de descrição dos requisitos funcionais.
 #labels Phase-Requirements
-
+#sidebar TableOfContents
 = Sistema de Gestão da Vídeo Locadora =
 
 O objetivo deste projeto é familiarizar o aluno com um ambiente de colaboração para desenvolvimento de software.
