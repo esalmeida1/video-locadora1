@@ -1,4 +1,5 @@
 #summary pagina de descrição dos requisitos funcionais.
+#labels Phase-Requirements
 
 = Sistema de Gestão da Vídeo Locadora =
 
