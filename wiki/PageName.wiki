@@ -10,7 +10,7 @@ O objetivo deste projeto é familiarizar o aluno com um ambiente de colaboraçã
 
 O sistema de gestão da vídeo locadora deve permitir manter os clientes e a gestão de empréstimos. O sistema deve satisfazer as seguintes características:
 
-= Requisitos funcionais. =
+== Requisitos funcionais. ==
 
 REQ01 - Gestão de clientes - O sistema deve permitir o cadastro de clientes da vídeo locadora.
 
@@ -22,7 +22,7 @@ REQ04 - Gestão de backup - O sistema deve permitir o backup periódico das info
 
 REQ05 – Segurança - O sistema deve permitir o acesso somente para usuários autorizados.
 
-=Requisitos não funcionais.=
+==Requisitos não funcionais.==
 
 RNF01 – O sistema deve oferecer uma interface padronizada, com dicas de campo e help-online
 
